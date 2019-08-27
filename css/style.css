@@ -1,0 +1,220 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  align-items: baseline;
+}
+
+.topnav h1 {
+  font-size: 30px;
+}
+
+p {
+  color: grey;
+  line-height: 1.5;
+}
+
+nav .leftnav input {
+  padding: 15PX 20px;
+  background-color: #404040;
+  font-size: 16px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+}
+
+nav .leftnav button {
+padding: 13px 20px;
+border: none;
+border-radius: 15px;
+background-color: #E34646;
+color: white;
+font-size: 20px;
+cursor: pointer;
+outline: none;
+position: relative;
+top: 2px;
+}
+
+
+nav.bottomnav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 75px;
+}
+
+nav.bottomnav img {
+  width: 40px;
+  margin-left: 10px;
+}
+
+nav.bottomnav img:hover {
+  opacity: 0.5;
+  transition: .5s ease;
+}
+
+nav.bottomnav a {
+text-transform: uppercase;
+cursor: pointer;
+color: grey;
+}
+
+nav.bottomnav a:not(:last-child) {
+  margin-right: 25px;
+}
+
+
+section {
+  width: 95%;
+  margin: auto;
+}
+
+section .greystuff {
+  background-color: #494949;
+  width: 960px;
+  height: 450px;
+  margin-bottom: 45px;
+}
+
+section .greystuff p {
+  width: 500px;
+  height: 150px;
+  background-color: #070707;
+  position: relative;
+  top: 280px;
+  right: 445px;
+  left: 15px;
+  bottom: 15px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+section.thirds {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 50px;
+}
+
+section.thirds .first, .second, .third {
+  width: 30%;
+}
+section.thirds h1 {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+section.thirds button {
+  outline: none;
+  background-color: #E34646;
+  border: none;
+  border-radius: 15px;
+  font-size: 15px;
+  margin-top: 20px;
+  padding: 15px 20px;
+  cursor: pointer;
+  color: white;
+}
+
+section.thirds button:hover {
+  font-size: 150%;
+  opacity: 0.5;
+  transition: .5s ease;
+}
+
+section.twocolumns {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  margin-bottom: 20px;
+}
+
+section.twocolumns h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+section.twocolumns h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: red;
+}
+
+section.twocolumns .rightcolumnn img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 20px;
+}
+
+section.twocolumns .rightcolumnn {
+  width: 40%;
+}
+
+section.twocolumns .rightcolumnn p {
+  margin-bottom: 40px;
+}
+
+section.twocolumns .leftcolumn img {
+  width: 225px;
+  height: 145px;
+  float: left;
+  margin-right: 25px;
+}
+
+section.twocolumns .leftcolumn {
+  width: 50%;
+}
+
+section.twocolumns .leftcolumn p.parag {
+  margin-bottom: 60px;
+}
+
+section.twocolumns .leftcolumn  button {
+  outline: none;
+  border: none;
+  background-color: #E34646;
+  border-radius: 15px;
+  font-size: 15px;
+  padding: 15px 20px;
+  cursor: pointer;
+  float: right;
+  margin-top: 20px;
+  color: white;
+}
+
+section.twocolumns .leftcolumn .h1 {
+  margin-top:75px;
+}
+
+section.twocolumns .leftcolumn .quatation {
+  width: 70px;
+  height: 70px;
+}
+
+section.twocolumns .leftcolumn h2 {
+  color: grey;
+}
+section.twocolumns .leftcolumn b {
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 95%;
+  margin-bottom: 20px;
+  color: grey;
+}
